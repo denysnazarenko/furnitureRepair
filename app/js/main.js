@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 
   const bottomHeader = document.querySelector('.bottom-header'),
-        topHeader = document.querySelector('.top-header');
+    topHeader = document.querySelector('.top-header');
   window.addEventListener('scroll', () => {
     if (window.scrollY > topHeader.offsetHeight) {
       bottomHeader.style.cssText = 'background: #fff; position: fixed;';
